@@ -1,0 +1,33 @@
+.navbar-section {
+  padding: 5% 2%;
+}
+
+.navbar-wrapper {
+  display: flex;
+  list-style: none;
+}
+
+.menu-item {
+  margin-left: 10px;
+}
+
+.nav-link {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-item {
+    margin-left: 5px;
+  }
+
+  .nav-link {
+    font-size: 0.9em;
+    padding: 5px;
+  }
+}
+
+.nav-link:hover {
+  border-top: 1px solid green;
+  transition: 0.5s all ease-in-out linear;
+}

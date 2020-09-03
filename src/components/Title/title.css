@@ -1,0 +1,38 @@
+.title-wrapper .title .color-green {
+  color: green;
+}
+
+@media only screen and (max-width: 600px) {
+  .title-wrapper .title {
+    font-size: 25px;
+    padding: 3px 0;
+  }
+}
+
+.title-wrapper .subtitle {
+  text-align: right;
+}
+
+.detail-paragraph {
+  margin: 20px 0;
+}
+
+.detail-paragraph p {
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .detail-paragraph p {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+}
+
+.detail-paragraph .bold-text {
+  font-weight: bold;
+}
+
+.detail-paragraph .document-link {
+  color: green;
+}
